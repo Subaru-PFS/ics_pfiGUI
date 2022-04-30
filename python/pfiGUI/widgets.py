@@ -70,7 +70,7 @@ class LeakageBox(ValueGB):
 
         value = values[ind]
 
-        if value == 1:
+        if value == 0:
             self.setColor('green')
             label.setText('OK')
         else:
